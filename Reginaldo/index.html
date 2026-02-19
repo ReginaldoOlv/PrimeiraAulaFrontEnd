@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Aula front end</title>
+
+    <style>
+
+        .container{
+            max-width: 820px;
+            margin: 48px auto;
+            background: url('download.jpg') no-repeat center center/cover;
+            padding: 28px;
+            border-radius: var(--radius);
+            box-shadow: 0 6px 18px rgba(233, 234, 235, 0.08);
+            text-decoration-color: aqua;
+        }
+        .button{
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .button:hover{
+            background-color: #0056b3;
+        }
+        .button:active{
+            background-color: #004080;
+        }
+        .button:focus{
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Primeira Aula de Front End</h1>
+
+        <p>Olá, seja bem-vindo à primeira aula de Front End! Nesta aula, vamos aprender sobre os fundamentos do desenvolvimento web, incluindo HTML, CSS e JavaScript. Prepare-se para criar páginas web incríveis e interativas!</p>
+
+        <p><a class="button" href="https://www.github.com/ReginaldoOLV/PrimeiraAulaFrontEnd" target="_blank" rel="noopener">Repositório do Projeto</a></p>
+
+        <img src="download.jpg" alt="Imagem de exemplo">
+
+        <ul>
+            <li>HTML: A estrutura básica da web</li>
+            <li>CSS: Estilizando suas páginas</li>
+            <li>JavaScript: Tornando suas páginas interativas</li>
+        </ul>
+
+        <form action="/submit" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
